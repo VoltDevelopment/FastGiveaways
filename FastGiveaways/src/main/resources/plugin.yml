@@ -1,0 +1,3 @@
+name: FastGiveaways
+version: '${project.version}'
+main: cirosanchezb.fastgiveaways.FastGiveaways
