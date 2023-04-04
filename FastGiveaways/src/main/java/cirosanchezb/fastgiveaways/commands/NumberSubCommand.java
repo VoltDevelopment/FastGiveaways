@@ -36,7 +36,10 @@ public class NumberSubCommand extends SubCommand {
     @Override
     public void perform(Player player, String[] args) {
         if (args.length > 1){
+            String number = args[1];
+            String item = args[2];
 
+            
         } else if (args.length == 1) {
             player.sendMessage(prefix+ChatColor.RED+" Usage: /fg number <Number> <Item>");
         }
