@@ -1,0 +1,45 @@
+###################################
+#        _____              __ _  #
+#/  __ \            / _(_)        #
+#| /  \/ ___  _ __ | |_ _  __ _   #
+#| |    / _ \| '_ \|  _| |/ _` |  #
+#| \__/\ (_) | | | | | | | (_| |  #
+# \____/\___/|_| |_|_| |_|\__, |  #
+#                          __/ |  #
+#                         |___/   #
+###################################
+
+# Thanks for using FastGiveaways.
+
+# Welcome to the config.yml, you can use Color Codes with the character '&'.
+# Placeholders:
+# %player%: Refers to the winner player
+# %item%: Refers to the object that the winner will win (Just a string, then you can give the prize)
+# %number%: Refers to the winner number (Only for number giveaways)
+
+# Prefix of all messages
+prefix: "&6&l[FastGiveaways]"
+messages:
+  no-permission: "&cYou don't have permission to use that!"
+  # Winner broadcast of random type giveaway
+  winnerRandom:
+    - "&6&l-----------------> &f&lWinner &6&l<-----------------"
+    - "&f                %player% just won %item%!              "
+    - "&6&l-----------------> &f&lWinner &6&l<-----------------"
+  # Winner broadcast of number type giveaway
+  winnerNumber:
+    - "&6&l-----------------> &f&lWinner &6&l<-----------------"
+    - "&f                %player% just won %item!              "
+    - "&f                Winner Number: %number%"
+    - "&6&l-----------------> &f&lWinner &6&l<-----------------"
+  # Winner of timed giveaway
+  winnertimed:
+    - "&6&l-----------------> &f&lWinner &6&l<-----------------"
+    - "&f                %player% just won %item!              "
+    - "&6&l-----------------> &f&lWinner &6&l<-----------------"
+
+
+functions:
+  # Timed giveaway wait time in ms (1000 = 1s)
+  # Default: 1 hour
+  timed: 3600000

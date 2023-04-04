@@ -1,5 +1,5 @@
 name: FastGiveaways
-version: '${project.version}'
+version: '1.0'
 main: cirosanchezb.fastgiveaways.FastGiveaways
 commands:
   fg:
