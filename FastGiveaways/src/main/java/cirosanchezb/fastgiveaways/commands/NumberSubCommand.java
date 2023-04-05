@@ -41,7 +41,7 @@ public class NumberSubCommand extends SubCommand {
 
             
         } else if (args.length == 1) {
-            player.sendMessage(prefix+ChatColor.RED+" Usage: /fg number <Number> <Item>");
+            player.sendMessage(prefix+ChatColor.RED+" Usage: /fg number <number> <item>");
         }
     }
 }
